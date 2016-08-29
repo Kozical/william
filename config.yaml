@@ -1,0 +1,9 @@
+---
+ps_path: '%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe'
+ps_opts: '-ExecutionPolicy Bypass -NonInteractive -InputFormat None'
+scripts_path: 'scripts'
+max_connections: 10
+bind_addr: '0.0.0.0'
+bind_port: '8103'
+key_path: 'ssl\william.lab.local.key'
+crt_path: 'ssl\william.lab.local.crt'
